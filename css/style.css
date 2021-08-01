@@ -1,0 +1,177 @@
+@font-face{
+	font-family: PTS55F;
+	src: url(../fonts/pt-sans/PTS55F.ttf);
+}
+@font-face{
+	font-family: PTS75F;
+	src: url(../fonts/pt-sans/PTS75F.ttf);
+}
+@font-face{
+	font-family: FreeSansBold;
+	src: url(../fonts/Free-Sans/FreeSansBold.ttf);
+}
+
+/*common coding*/
+body{
+	font-family: PTS55F;
+	font-weight: 400;
+	font-size: 16px;
+	color: #010101;
+}
+/*common coding*/
+
+/*header starts*/
+header{
+   background-color: #fcdb00;
+   padding: 20px 0;
+}
+.c_nav{
+	 background-color: #fcdb00;
+}
+.logo{
+
+}
+.menu{}
+.menu ul li a{
+	font-family: PTS75F;
+	font-weight: 700;
+	font-size: 22PX;
+	color: #010101 !important;
+	padding: 0 55px !important;
+
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover {
+	color: white !important;
+}
+/*header ends*/
+/*slider starts*/
+.slider{
+	background-color: #fcdb00;
+	padding-bottom: 100px;
+}
+/*indicators*/
+.s_text{
+    margin-top: 60px;
+}
+.s_text h1{
+	margin-bottom: 15px;
+	font-size: 32px;
+	font-weight: 700;
+
+}
+.s_text h2{
+	/*margin-right: 132px;*/
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 400;
+	/*line-height: 23px;
+	font-size: 20px;
+	font-weight: 400;
+	color: #313841;*/
+}
+.s_text p{
+	 font-family: PTS55F;
+	 margin-bottom: 35px;
+	 color: #555555;
+  
+
+}
+.s_icon ul li{
+   margin-right: 30px !important;
+}
+.s_icon ul li i{
+	transition: 0.3s;
+	font-size: 42px;
+
+}
+.s_icon ul li i:hover {
+	transform: scale(0.8);
+}
+
+
+.s_image{
+    
+}
+
+.s_image img{
+	
+}
+
+.cid {
+    bottom: -80px;
+
+}
+
+.cid [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    
+}
+.cid .active{
+	opacity: 1;
+}
+/*indicators*/
+
+/*slider ends*/
+/*feature starts*/
+.feature{
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+.c_title{}
+.c_h1 {
+	font-family: PTS75F;
+	 font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.c_text{
+	font-family: PTS55F;
+	font-size: 20px;
+	color: #313841;
+	word-spacing: 1px;
+   margin: 0 2%;
+   line-height: 25px;
+}
+.f_single{
+	margin-top: 80px;
+}
+.f_icon{
+	margin-top: 6px;
+	padding-left: 20%;
+}
+.f_icon img{
+	transition: 0.3s;
+}
+.f_icon img:hover {
+	transform: scale(0.8);
+}
+.f_icon i{
+	transition: 0.3s;
+	font-size: 50px;
+	color: #010101;
+}
+.f_icon i:hover {
+	transform: scale(0.8);
+}
+
+.f_text{}
+.f_h2{
+	margin-bottom: 15px;
+	font-size: 22px;
+	font-weight: 700;
+}
+.f_p{
+	margin-bottom: 0;
+    font-size: 16px;
+    color: #898989;
+    line-height: 24px;
+    margin-right: 20%;
+ 
+}
+
+/*feature ends*/
